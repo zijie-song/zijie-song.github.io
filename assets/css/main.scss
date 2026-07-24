@@ -372,3 +372,9 @@ body {
     font-size: 15px !important;
   }
 }
+
+/* 隐藏网站底部信息 */
+.page__footer,
+#footer {
+  display: none !important;
+}
