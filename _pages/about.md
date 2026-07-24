@@ -23,11 +23,11 @@ He has participated in several research projects supported by the National Key R
 
 <h2 id="news" class="news-title">News</h2>
 
-- The paper “Rebalancing Contrastive Alignment with Learnable Semantic Gaps in Text-Video Retrieval” was accepted by NeurIPS 2025.
-- The paper “Video Flow as Time Series: Discovering Temporal Consistency and Variability for VideoQA” was accepted by ICME 2025.
-- Received the Best Poster Award at ChinaMM 2025.
-- The paper “Grid Jigsaw Representation with CLIP: A New Perspective on Image Clustering” was published in Multimedia Systems.
-- The paper “Embedded Heterogeneous Attention Transformer for Cross-lingual Image Captioning” was published in IEEE Transactions on Multimedia.
+- Our paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026. (CCF-A; CAS Q1 Top Journal)
+
+- Our paper “Enhanced Keyframe Selection for Long-Video Question Answering via Large Language Model-Generated Pseudo-Labels” was published in Journal of Computer Research and Development, 2026, 63(6): 1563–1573. (CCF Chinese T1; Chinese Core Journal)
+
+- Received the Best Poster Award at ChinaMM 2025, organized by the China Computer Federation and the China Society of Image and Graphics.
 
 <h2 id="research">Research Interests</h2>
 
@@ -58,25 +58,19 @@ Image captioning, video question answering, text-video retrieval, and image clus
 <table class="simple-table project-table">
   <tbody>
     <tr>
-      <td>National Key Research and Development Program of China</td>
-      <td>Participant</td>
+      <td>2026.06—2027.06</td>
+      <td>University–Industry Collaborative Research Project</td>
+      <td>Principal Investigator</td>
     </tr>
     <tr>
-      <td>Key Program of the National Natural Science Foundation of China</td>
-      <td>Participant</td>
-    </tr>
-    <tr>
-      <td>Joint Fund Project of the National Natural Science Foundation of China</td>
-      <td>Participant</td>
-    </tr>
-    <tr>
+      <td>2022.01—2025.12</td>
       <td>General Program of the National Natural Science Foundation of China</td>
-      <td>Participant</td>
+      <td>Key Project Member</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="publications">Publications</h2>
+<h2 id="publications">Selected Publications</h2>
 
 1. <strong>Z. Song</strong>, Z. Hu, Y. Zhou, Y. Zhao, R. Hong, and M. Wang. Embedded Heterogeneous Attention Transformer for Cross-lingual Image Captioning. IEEE Transactions on Multimedia, 2024, 26: 9008–9020.
 
@@ -84,15 +78,9 @@ Image captioning, video question answering, text-video retrieval, and image clus
 
 3. J. Xiao, <strong>Z. Song</strong>, J. Hu, H. Cheng, Z. Hu, J. Li, and R. Hong. Rebalancing Contrastive Alignment with Learnable Semantic Gaps in Text-Video Retrieval. Advances in Neural Information Processing Systems (NeurIPS), 2025.
 
-4. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Jigsaw Representation with CLIP: A New Perspective on Image Clustering. Multimedia Systems, 2025, 31(2): 105.
+4. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Efficient and Self-adaptive Rationale Knowledge Base for Visual Commonsense Reasoning. Multimedia Systems, 2023, 29(5): 3017–3026.
 
-5. Y. Zhang, <strong>Z. Song*</strong>, and Z. Hu. Exploring Coherence from Heterogeneous Representations for OCR Image Captioning. Multimedia Systems, 2024, 30(5): 262.
-
-6. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Efficient and Self-adaptive Rationale Knowledge Base for Visual Commonsense Reasoning. Multimedia Systems, 2023, 29(5): 3017–3026.
-
-7. Z. Hu, Z. Wang, <strong>Z. Song</strong>, and R. Hong. Dual Video Summarization: From Frames to Captions. International Joint Conference on Artificial Intelligence (IJCAI), 2023.
-
-8. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Feature Jigsaw for Self-supervised Image Clustering. International Joint Conference on Neural Networks (IJCNN), 2023.
+5. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Feature Jigsaw for Self-supervised Image Clustering. International Joint Conference on Neural Networks (IJCNN), 2023.
 
 <h2 id="teaching">Teaching</h2>
 
