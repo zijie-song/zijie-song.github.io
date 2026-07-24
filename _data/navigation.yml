@@ -14,5 +14,11 @@ main:
   - title: "论文发表"
     url: "/#publications"
 
+  - title: "教学活动"
+    url: "/#teaching"
+
   - title: "学术服务"
     url: "/#service"
+
+  - title: "关于招生"
+    url: "/#admissions"
