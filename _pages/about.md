@@ -23,11 +23,11 @@ He has participated in several research projects supported by the National Key R
 
 <h2 id="news" class="news-title">News</h2>
 
-- Our paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026. (CCF-A; CAS Q1 Top Journal)
+- The paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026. (CCF-A; CAS Q1 Top Journal)
 
-- Our paper “Enhanced Keyframe Selection for Long-Video Question Answering via Large Language Model-Generated Pseudo-Labels” was published in Journal of Computer Research and Development, 2026, 63(6): 1563–1573. (CCF Chinese T1; Chinese Core Journal)
+- The paper “Enhanced Keyframe Selection for Long-Video Question Answering via Large Language Model-Generated Pseudo-Labels” was published in Journal of Computer Research and Development, 2026, 63(6): 1563–1573. (CCF Chinese T1; Chinese Core Journal)
 
-- Received the Best Poster Award at ChinaMM 2025, organized by the China Computer Federation and the China Society of Image and Graphics.
+- Zijie Song received the Best Poster Award at ChinaMM 2025.
 
 <h2 id="research">Research Interests</h2>
 
@@ -55,17 +55,15 @@ Image captioning, video question answering, text-video retrieval, and image clus
 
 <h2 id="projects">Research Projects</h2>
 
-<table class="simple-table project-table">
+<table class="simple-table">
   <tbody>
     <tr>
-      <td>2026.06—2027.06</td>
-      <td>University–Industry Collaborative Research Project</td>
-      <td>Principal Investigator</td>
+      <td style="width: 25%; white-space: nowrap; text-align: center;">2026.06—2027.06</td>
+      <td>University–Industry Collaborative Research Project (Principal Investigator)</td>
     </tr>
     <tr>
-      <td>2022.01—2025.12</td>
-      <td>General Program of the National Natural Science Foundation of China</td>
-      <td>Key Project Member</td>
+      <td style="width: 25%; white-space: nowrap; text-align: center;">2022.01—2025.12</td>
+      <td>General Program of the National Natural Science Foundation of China (Key Project Member)</td>
     </tr>
   </tbody>
 </table>
@@ -82,9 +80,14 @@ Image captioning, video question answering, text-video retrieval, and image clus
 
 5. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Feature Jigsaw for Self-supervised Image Clustering. International Joint Conference on Neural Networks (IJCNN), 2023.
 
+For more research work and academic service, please refer to:
+
+Google Scholar: [https://scholar.google.com/citations?user=99X3AYkAAAAJ](https://scholar.google.com/citations?user=99X3AYkAAAAJ)  
+ORCID: [https://orcid.org/0000-0002-1262-764X](https://orcid.org/0000-0002-1262-764X)
+
 <h2 id="teaching">Teaching</h2>
 
-Undergraduate Course: Java Programming.
+Undergraduate Courses: Java Technology and Applications; Big Data System Development.
 
 <h2 id="service">Awards and Academic Service</h2>
 
