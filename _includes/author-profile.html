@@ -1,4 +1,4 @@
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
@@ -173,4 +173,85 @@
       {% endif %}      
     </ul>
   </div>
+</div> -->
+
+
+
+
+<!-- 尝试2026/7/24-->
+
+
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  {% if author.avatar %}
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      {% else %}
+        <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ author.name }}">
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="author__content">
+    <h3 class="author__name">{{ author.name }}</h3>
+
+    {% if author.bio %}
+      <div class="author__bio">
+        {{ author.bio }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">在线</button>
+
+    <ul class="author__urls social-icons">
+
+      {% if author.employer %}
+        <li>
+          <span aria-hidden="true">🏫</span>
+          {{ author.employer }}
+        </li>
+      {% endif %}
+
+      {% if author.location %}
+        <li>
+          <span aria-hidden="true">📍</span>
+          {{ author.location }}
+        </li>
+      {% endif %}
+
+      {% if author.email %}
+        <li>
+          <span aria-hidden="true">✉️</span>
+          <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+        </li>
+      {% endif %}
+
+      {% if author.uri %}
+        <li>
+          <span aria-hidden="true">🔗</span>
+          <a href="{{ author.uri }}">个人主页</a>
+        </li>
+      {% endif %}
+
+      {% if author.github %}
+        <li>
+          <span aria-hidden="true">💻</span>
+          <a href="https://github.com/{{ author.github }}">GitHub</a>
+        </li>
+      {% endif %}
+
+    </ul>
+  </div>
+
 </div>
