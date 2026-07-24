@@ -2,49 +2,48 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Academic Pages 基础样式导入
+ * 注意：文件最前面的两行 --- 不能删除或注释
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+  "layout/reset",
+  "layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-    "layout/forms",
+  "layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
 ;
 
-// ------2026/7/24尝试-------------
+
 /* =========================================================
-   宋子杰个人主页：简洁学术主页样式
+   宋子杰个人学术主页自定义样式
+   风格：简洁、规整、统一
    ========================================================= */
 
 html {
@@ -61,13 +60,20 @@ body {
     "Noto Sans CJK SC",
     Arial,
     sans-serif;
+
   color: #3f464d;
 }
 
-/* 隐藏正文顶部重复的页面标题 */
+
+/* ---------------------------------------------------------
+   一、隐藏不需要的内容
+   --------------------------------------------------------- */
+
+/* 隐藏正文顶部重复出现的“宋子杰” */
 .page__inner-wrap > header,
-#page-title,
-.page__title {
+.page__header,
+.page__title,
+#page-title {
   display: none !important;
 }
 
@@ -77,12 +83,101 @@ body {
   display: none !important;
 }
 
-/* 正文统一字号 */
+/* 隐藏左侧 Follow 按钮 */
+.author__urls-wrapper .btn {
+  display: none !important;
+}
+
+
+/* ---------------------------------------------------------
+   二、顶部导航栏
+   --------------------------------------------------------- */
+
+.masthead__inner-wrap {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+.greedy-nav a {
+  color: #303943;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.greedy-nav a:hover {
+  color: #305f8d;
+}
+
+.masthead__menu-item--lg a {
+  font-weight: 700;
+}
+
+
+/* ---------------------------------------------------------
+   三、左侧个人信息
+   --------------------------------------------------------- */
+
+.author__avatar img {
+  width: 165px;
+  max-width: 165px;
+
+  border: 1px solid #e0e3e6;
+  border-radius: 50%;
+}
+
+/* 左侧姓名 */
+.author__name {
+  margin-top: 0.75em;
+  margin-bottom: 0.4em;
+
+  color: #34495e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* 左侧简介 */
+.author__bio {
+  margin-top: 0;
+  margin-bottom: 0.9em;
+
+  color: #4f565d;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+/* 左侧学校、邮箱和主页等信息 */
+.author__urls {
+  margin-top: 0.45em;
+
+  color: #454d55;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.author__urls li {
+  margin-bottom: 0.48em;
+}
+
+.author__urls a {
+  color: #355f87;
+  text-decoration: none;
+}
+
+.author__urls a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------------
+   四、正文整体
+   --------------------------------------------------------- */
+
 .page__content {
   margin-top: 0;
+
+  color: #3f464d;
   font-size: 16px;
   line-height: 1.75;
-  color: #3f464d;
 }
 
 .page__content p {
@@ -90,22 +185,39 @@ body {
   margin-bottom: 0.55em;
 }
 
-/* 各部分标题 */
+/* 正文中的链接 */
+.page__content a {
+  color: #2979a8;
+  text-decoration: none;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------------
+   五、栏目标题
+   --------------------------------------------------------- */
+
 .page__content h2 {
   margin-top: 1.55em;
   margin-bottom: 0.7em;
   padding-bottom: 0.32em;
+
   border-bottom: 1px solid #d9dde1;
+
   color: #34495e;
   font-size: 1.45rem;
   font-weight: 700;
   line-height: 1.35;
+
   scroll-margin-top: 85px;
 }
 
-/* 第一个“个人信息”标题不留过多上边距 */
-.page__content h2:first-child {
-  margin-top: 0;
+/* 页面第一个标题“个人信息”不要留下过大空白 */
+.page__content h2:first-of-type {
+  margin-top: 0 !important;
 }
 
 /* 最新动态标题标红 */
@@ -113,7 +225,11 @@ body {
   color: #b42318 !important;
 }
 
-/* 普通列表 */
+
+/* ---------------------------------------------------------
+   六、普通列表和最新动态
+   --------------------------------------------------------- */
+
 .page__content ul,
 .page__content ol {
   margin-top: 0.45em;
@@ -122,28 +238,54 @@ body {
 }
 
 .page__content li {
-  margin-bottom: 0.48em;
+  margin-bottom: 0.45em;
   line-height: 1.7;
 }
 
-/* 教育经历和科研项目表格 */
-.page__content table.simple-table {
-  width: 100%;
-  margin-top: 0.7em;
-  margin-bottom: 1.3em;
-  border-collapse: collapse;
-  font-size: inherit !important;
-  line-height: inherit;
-  color: inherit;
+/* 最新动态不要斜体 */
+.page__content h2.news-title + ul em {
+  font-style: normal;
 }
 
+
+/* ---------------------------------------------------------
+   七、教育经历和科研项目表格
+   --------------------------------------------------------- */
+
+.page__content table,
+.page__content table.simple-table {
+  width: 100%;
+
+  margin-top: 0.7em;
+  margin-bottom: 1.3em;
+
+  border-collapse: collapse;
+
+  color: #3f464d;
+  font-size: 16px !important;
+  line-height: 1.65;
+}
+
+.page__content table th,
+.page__content table td,
+.page__content table.simple-table th,
 .page__content table.simple-table td {
   padding: 0.62em 0.9em;
+
   border: 1px solid #bcc5ce;
   background: transparent;
-  font-size: inherit !important;
+
+  color: inherit;
+  font-size: 16px !important;
   font-weight: 400;
   vertical-align: middle;
+}
+
+/* 表格标题行 */
+.page__content table th {
+  background: #fafafa;
+  font-weight: 600;
+  text-align: center;
 }
 
 /* 教育经历左侧时间 */
@@ -160,74 +302,53 @@ body {
   white-space: nowrap;
 }
 
-/* 论文列表更加紧凑 */
+
+/* ---------------------------------------------------------
+   八、论文列表
+   --------------------------------------------------------- */
+
 .page__content ol {
   padding-left: 1.75em;
 }
 
+/* 每篇论文紧凑排列 */
 .page__content ol li {
   margin-bottom: 0.62em;
   padding-left: 0.12em;
+
+  line-height: 1.65;
 }
 
-/* 仅保留正常的本人姓名加粗 */
-.page__content strong {
+/* 论文列表中的期刊和会议名称不使用斜体 */
+.page__content ol em {
+  font-style: normal;
+}
+
+/* 只保留作者自己姓名的加粗效果 */
+.page__content ol strong {
   font-weight: 700;
 }
 
-/* 左侧头像 */
-.author__avatar img {
-  width: 165px;
-  max-width: 165px;
-  border: 1px solid #e0e3e6;
-  border-radius: 50%;
-}
 
-/* 左侧中文姓名 */
-.author__name {
-  margin-top: 0.75em;
-  margin-bottom: 0.4em;
-  color: #34495e;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
+/* ---------------------------------------------------------
+   九、教学活动、学术服务和招生
+   --------------------------------------------------------- */
 
-/* 左侧中文简介 */
-.author__bio {
-  margin-top: 0;
-  margin-bottom: 0.9em;
-  color: #4f565d;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-/* 左侧联系方式 */
-.author__urls {
+#teaching + p,
+#admissions + p {
   margin-top: 0.45em;
-  font-size: 14px;
-  line-height: 1.55;
 }
 
-.author__urls li {
-  margin-bottom: 0.48em;
+#service + ul,
+#admissions + ol {
+  margin-top: 0.45em;
 }
 
-/* 隐藏“在线”或 Follow 按钮 */
-.author__urls-wrapper .btn {
-  display: none !important;
-}
 
-/* 顶部导航 */
-.greedy-nav a {
-  font-size: 16px;
-  font-weight: 400;
-}
+/* ---------------------------------------------------------
+   十、移动端
+   --------------------------------------------------------- */
 
-.masthead__menu-item--lg a {
-  font-weight: 700;
-}
-
-/* 移动端 */
 @media screen and (max-width: 900px) {
   .page__content {
     font-size: 15px;
@@ -242,8 +363,12 @@ body {
     max-width: 145px;
   }
 
-  .page__content table.simple-table {
+  .page__content table,
+  .page__content table th,
+  .page__content table td,
+  .page__content table.simple-table,
+  .page__content table.simple-table th,
+  .page__content table.simple-table td {
     font-size: 15px !important;
   }
 }
-
