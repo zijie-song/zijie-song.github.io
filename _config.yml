@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Zijie Song"
+title                    : "宋子杰"
 title_separator          : "-"
-name                     : &name "Zijie Song"
-description              : &description "Zijie Song's Academic Homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "宋子杰"
+description              : &description "宋子杰的个人学术主页"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://zijie-song.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,15 +23,24 @@ repository               : "zijie-song/zijie-song.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
+  # avatar           : "profile.png"
+  # name             : "Zijie Song"
+  # pronouns         :  
+  # bio              : "Ph.D., Hefei University of Technology. Research interests include multimedia technology, cross-modal understanding and applications."
+  # location         : "Hefei, Anhui, China"
+  # employer         : "Anhui University"
+  # uri              : 
+  # email            : "zjsong@ahu.edu.cn" 
+  
   avatar           : "profile.png"
-  name             : "Zijie Song"
-  pronouns         :  
-  bio              : "Ph.D., Hefei University of Technology. Research interests include multimedia technology, cross-modal understanding and applications."
-  location         : "Hefei, Anhui, China"
-  employer         : "Anhui University"
-  uri              : 
-  email            : "zjsong@ahu.edu.cn" 
-
+  name             : "宋子杰"
+  pronouns         :
+  bio              : "合肥工业大学博士，主要研究方向包括多媒体技术、跨模态理解与视觉语言学习。"
+  location         : "安徽大学（磬苑校区）"
+  employer         : "安徽大学，大数据与统计学院"
+  uri              : "https://ds.ahu.edu.cn/2025/1017/c23070a375835/page.htm"
+  email            : "zjsong@ahu.edu.cn"
+  
   # Academic websites
   academia         : 
   arxiv            : 
