@@ -19,11 +19,11 @@ redirect_from:
 
 **网页：** [https://zijie-song.github.io/](https://zijie-song.github.io/)
 
-**简介：** 宋子杰，现工作于安徽大学大数据与统计学院。2025年于合肥工业大学计算机科学与技术专业获得博士学位，导师为洪日昌教授。主要研究方向包括多媒体技术、跨模态理解、视觉语言学习及其相关应用。
+**简介：** 现工作于安徽大学大数据与统计学院。2025年于合肥工业大学计算机科学与技术专业获得博士学位，导师为洪日昌教授。主要研究方向包括多媒体技术、跨模态理解、视觉语言学习及其相关应用。
 
 参与国家重点研发计划、国家自然科学基金重点项目、国家自然科学基金联合基金项目和国家自然科学基金面上项目等科研项目。在 IEEE Transactions on Multimedia、NeurIPS、IJCAI 等国际期刊和会议发表论文十余篇。担任 IEEE Transactions on Multimedia、ACM Transactions on Multimedia Computing, Communications, and Applications、ICME 等国际期刊和会议审稿人，并担任中国图象图形学学会多媒体专委会委员。
 
-<h2 id="news">最新动态</h2>
+<h2 id="news" class="news-title">最新动态（news）</h2>
 
 - **[论文]** 论文 *Rebalancing Contrastive Alignment with Learnable Semantic Gaps in Text-Video Retrieval* 发表于 **NeurIPS 2025**。
 - **[论文]** 论文 *Video Flow as Time Series: Discovering Temporal Consistency and Variability for VideoQA* 发表于 **ICME 2025**。
@@ -32,19 +32,14 @@ redirect_from:
 
 <h2 id="research">研究方向</h2>
 
-- 多媒体技术
-- 跨模态理解与应用
-- 视觉语言学习
-- 图像描述
-- 视频问答
-- 文本—视频检索
-- 图像聚类
+多媒体技术、跨模态理解与应用、视觉语言学习。  
+图像描述、视频问答、文本—视频检索与图像聚类。
 
 <h2 id="education">教育经历</h2>
 
 | 时间 | 学校及专业 |
 | :---: | :--- |
-| 2022.08—2025.08 | 合肥工业大学，计算机科学与技术，博士，导师：洪日昌教授 |
+| 2022.08—2025.08 | 合肥工业大学，计算机科学与技术，博士 |
 | 2019.09—2022.05 | 合肥工业大学，电子与通信工程，硕士 |
 | 2015.09—2019.06 | 华北电力大学，信息与计算科学，学士 |
 
@@ -91,6 +86,10 @@ redirect_from:
    **Grid Feature Jigsaw for Self-supervised Image Clustering.**  
    *International Joint Conference on Neural Networks (IJCNN)*, 2023.
 
+<h2 id="teaching">教学活动</h2>
+
+相关教学与课程信息持续更新中。
+
 <h2 id="service">奖励与学术服务</h2>
 
 - ChinaMM 2025 Best Poster Award
@@ -99,3 +98,9 @@ redirect_from:
 - IEEE Transactions on Multimedia 审稿人
 - ACM Transactions on Multimedia Computing, Communications, and Applications 审稿人
 - ICME 等国际会议审稿人
+
+<h2 id="admissions">关于招生</h2>
+
+欢迎对多媒体技术、跨模态理解、视觉语言学习等研究方向感兴趣的同学通过邮件联系。
+
+联系邮箱：[zjsong@ahu.edu.cn](mailto:zjsong@ahu.edu.cn)
