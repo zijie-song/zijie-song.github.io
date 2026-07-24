@@ -84,28 +84,3 @@ For more research work and academic service, please refer to:
 
 Google Scholar: [https://scholar.google.com/citations?user=99X3AYkAAAAJ](https://scholar.google.com/citations?user=99X3AYkAAAAJ)  
 ORCID: [https://orcid.org/0000-0002-1262-764X](https://orcid.org/0000-0002-1262-764X)
-
-<h2 id="teaching">Teaching</h2>
-
-Undergraduate Courses: Java Technology and Applications; Big Data System Development.
-
-<h2 id="service">Awards and Academic Service</h2>
-
-- Best Poster Award at ChinaMM 2025
-- Best Paper Nomination
-- Member of the Multimedia Technical Committee, China Society of Image and Graphics
-- Reviewer for IEEE Transactions on Multimedia
-- Reviewer for ACM Transactions on Multimedia Computing, Communications, and Applications
-- Reviewer for ICME and other international conferences
-
-<h2 id="admissions">Admissions</h2>
-
-1. Students interested in multimedia technology, cross-modal understanding, vision-language learning, and related research topics are welcome to join the group.
-
-2. Applicants are expected to be outgoing, responsible, and able to communicate and collaborate effectively with others.
-
-3. A strong mathematical foundation and good English academic reading skills are preferred.
-
-4. Applicants should have solid programming skills and be familiar with at least one mainstream programming language, such as Python, C++, or Java.
-
-5. Applicants should be self-motivated, willing to learn, and able to devote sufficient time and effort to research.
