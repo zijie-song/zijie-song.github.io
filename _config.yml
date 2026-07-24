@@ -13,24 +13,13 @@ title                    : "Zijie Song"
 title_separator          : "-"
 name                     : &name "Zijie Song"
 description              : &description "Zijie Song's Academic Homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://zijie-song.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://zijie-song.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
 repository               : "zijie-song/zijie-song.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+
 author:
-  # Biographic information
-  # avatar           : "profile.png"
-  # name             : "Zijie Song"
-  # pronouns         :  
-  # bio              : "Ph.D., Hefei University of Technology. Research interests include multimedia technology, cross-modal understanding and applications."
-  # location         : "Hefei, Anhui, China"
-  # employer         : "Anhui University"
-  # uri              : 
-  # email            : "zjsong@ahu.edu.cn" 
   
   avatar           : "profile.png"
   name             : "Zijie Song"
