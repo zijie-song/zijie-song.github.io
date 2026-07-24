@@ -45,7 +45,9 @@
 
 
 // ------2026/7/24尝试-------------
-/* 个人主页简洁样式 */
+/* =========================================================
+   宋子杰个人主页：简洁学术主页样式
+   ========================================================= */
 
 html {
   scroll-behavior: smooth;
@@ -53,129 +55,166 @@ html {
 
 body {
   font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
     "Microsoft YaHei",
     "PingFang SC",
     "Noto Sans CJK SC",
     Arial,
     sans-serif;
-  color: #333;
+  color: #3f464d;
 }
 
-/* 隐藏正文顶部重复的页面名称 */
+/* 隐藏正文顶部重复的页面标题 */
+.page__inner-wrap > header,
+#page-title,
 .page__title {
   display: none !important;
 }
 
-/* 隐藏右上角主题切换按钮 */
-#theme-toggle {
+/* 隐藏右上角主题切换齿轮 */
+#theme-toggle,
+.theme-toggle {
   display: none !important;
 }
 
-/* 正文 */
+/* 正文统一字号 */
 .page__content {
+  margin-top: 0;
   font-size: 16px;
   line-height: 1.75;
+  color: #3f464d;
 }
 
 .page__content p {
-  margin-top: 0.4em;
+  margin-top: 0.35em;
   margin-bottom: 0.55em;
 }
 
-/* 栏目标题 */
+/* 各部分标题 */
 .page__content h2 {
   margin-top: 1.55em;
   margin-bottom: 0.7em;
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 0.32em;
+  border-bottom: 1px solid #d9dde1;
   color: #34495e;
   font-size: 1.45rem;
   font-weight: 700;
+  line-height: 1.35;
   scroll-margin-top: 85px;
 }
 
-/* 最新动态标题 */
-.page__content h2.news-title {
-  color: #c62828;
+/* 第一个“个人信息”标题不留过多上边距 */
+.page__content h2:first-child {
+  margin-top: 0;
 }
 
-/* 列表 */
+/* 最新动态标题标红 */
+.page__content h2.news-title {
+  color: #b42318 !important;
+}
+
+/* 普通列表 */
 .page__content ul,
 .page__content ol {
   margin-top: 0.45em;
-  padding-left: 1.5em;
+  margin-bottom: 1em;
+  padding-left: 1.7em;
 }
 
 .page__content li {
-  margin-bottom: 0.4em;
+  margin-bottom: 0.48em;
+  line-height: 1.7;
 }
 
-/* 表格 */
-.page__content table {
+/* 教育经历和科研项目表格 */
+.page__content table.simple-table {
   width: 100%;
   margin-top: 0.7em;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.3em;
   border-collapse: collapse;
-  font-size: 15px;
+  font-size: inherit !important;
+  line-height: inherit;
+  color: inherit;
 }
 
-.page__content th,
-.page__content td {
-  padding: 0.6em 0.8em;
-  border: 1px solid #c5cbd1;
+.page__content table.simple-table td {
+  padding: 0.62em 0.9em;
+  border: 1px solid #bcc5ce;
+  background: transparent;
+  font-size: inherit !important;
+  font-weight: 400;
   vertical-align: middle;
 }
 
-.page__content th {
-  background: #fafafa;
-  font-weight: 600;
-  text-align: center;
-}
-
-.page__content td:first-child {
-  width: 28%;
+/* 教育经历左侧时间 */
+.page__content table.education-table td:first-child {
+  width: 30%;
   text-align: center;
   white-space: nowrap;
+}
+
+/* 科研项目右侧参与情况 */
+.page__content table.project-table td:last-child {
+  width: 20%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* 论文列表更加紧凑 */
+.page__content ol {
+  padding-left: 1.75em;
+}
+
+.page__content ol li {
+  margin-bottom: 0.62em;
+  padding-left: 0.12em;
+}
+
+/* 仅保留正常的本人姓名加粗 */
+.page__content strong {
+  font-weight: 700;
 }
 
 /* 左侧头像 */
 .author__avatar img {
   width: 165px;
   max-width: 165px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #e0e3e6;
   border-radius: 50%;
 }
 
-/* 左侧姓名 */
+/* 左侧中文姓名 */
 .author__name {
-  margin-top: 0.8em;
+  margin-top: 0.75em;
   margin-bottom: 0.4em;
   color: #34495e;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-/* 左侧简介 */
+/* 左侧中文简介 */
 .author__bio {
   margin-top: 0;
-  margin-bottom: 1em;
-  color: #555;
+  margin-bottom: 0.9em;
+  color: #4f565d;
   font-size: 14px;
   line-height: 1.6;
 }
 
 /* 左侧联系方式 */
 .author__urls {
-  margin-top: 0.5em;
+  margin-top: 0.45em;
   font-size: 14px;
   line-height: 1.55;
 }
 
 .author__urls li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.48em;
 }
 
-/* 隐藏 Follow 按钮 */
+/* 隐藏“在线”或 Follow 按钮 */
 .author__urls-wrapper .btn {
   display: none !important;
 }
@@ -188,5 +227,25 @@ body {
 
 .masthead__menu-item--lg a {
   font-weight: 700;
+}
+
+/* 移动端 */
+@media screen and (max-width: 900px) {
+  .page__content {
+    font-size: 15px;
+  }
+
+  .page__content h2 {
+    font-size: 1.35rem;
+  }
+
+  .author__avatar img {
+    width: 145px;
+    max-width: 145px;
+  }
+
+  .page__content table.simple-table {
+    font-size: 15px !important;
+  }
 }
 
