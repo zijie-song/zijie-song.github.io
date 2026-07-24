@@ -17,9 +17,7 @@ redirect_from:
 
 **邮箱：** [zjsong@ahu.edu.cn](mailto:zjsong@ahu.edu.cn)
 
-**网页：** [https://zijie-song.github.io/](https://zijie-song.github.io/)
-
-**简介：** 现工作于安徽大学大数据与统计学院。2025年于合肥工业大学计算机科学与技术专业获得博士学位，导师为洪日昌教授。主要研究方向包括多媒体技术、跨模态理解、视觉语言学习及其相关应用。
+**个人简介：** 现工作于安徽大学大数据与统计学院。2025年于合肥工业大学计算机科学与技术专业获得博士学位，导师为洪日昌教授。主要研究方向包括多媒体技术、跨模态理解、视觉语言学习及其相关应用。
 
 参与国家重点研发计划、国家自然科学基金重点项目、国家自然科学基金联合基金项目和国家自然科学基金面上项目等科研项目。在 IEEE Transactions on Multimedia、NeurIPS、IJCAI 等国际期刊和会议发表论文十余篇。担任 IEEE Transactions on Multimedia、ACM Transactions on Multimedia Computing, Communications, and Applications、ICME 等国际期刊和会议审稿人，并担任中国图象图形学学会多媒体专委会委员。
 
@@ -29,6 +27,7 @@ redirect_from:
 - **[论文]** 论文 *Video Flow as Time Series: Discovering Temporal Consistency and Variability for VideoQA* 发表于 **ICME 2025**。
 - **[奖励]** 获得 **ChinaMM 2025 Best Poster Award**。
 - **[论文]** 论文 *Grid Jigsaw Representation with CLIP: A New Perspective on Image Clustering* 发表于 **Multimedia Systems**。
+- **[论文]** 论文 *Embedded Heterogeneous Attention Transformer for Cross-lingual Image Captioning* 发表于 **IEEE Transactions on Multimedia**。
 
 <h2 id="research">研究方向</h2>
 
@@ -88,7 +87,7 @@ redirect_from:
 
 <h2 id="teaching">教学活动</h2>
 
-相关教学与课程信息持续更新中。
+教学课程与相关活动信息持续更新中。
 
 <h2 id="service">奖励与学术服务</h2>
 
@@ -101,6 +100,6 @@ redirect_from:
 
 <h2 id="admissions">关于招生</h2>
 
-欢迎对多媒体技术、跨模态理解、视觉语言学习等研究方向感兴趣的同学通过邮件联系。
+招生与学生培养信息持续更新中。
 
-联系邮箱：[zjsong@ahu.edu.cn](mailto:zjsong@ahu.edu.cn)
+有意向的同学可通过邮箱联系：[zjsong@ahu.edu.cn](mailto:zjsong@ahu.edu.cn)
