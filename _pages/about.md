@@ -19,9 +19,11 @@ redirect_from:
 
 **Biography:** Zijie Song is currently a Lecturer at the School of Data Science and Statistics, Anhui University. He received his Ph.D. degree in Computer Science and Technology from Hefei University of Technology in 2025 under the supervision of Prof. Richang Hong. His research interests include multimedia technology, cross-modal understanding, vision-language learning, and their applications.
 
-He has participated in several research projects supported by the National Key Research and Development Program of China and the National Natural Science Foundation of China. He has published more than ten papers in international journals and conferences, including IEEE Transactions on Multimedia, NeurIPS, and IJCAI. He also serves as a reviewer for international journals and conferences, including IEEE Transactions on Multimedia, ACM Transactions on Multimedia Computing, Communications, and Applications, and ICME. He is a member of the Multimedia Technical Committee of the China Society of Image and Graphics.
+He has participated in several research projects supported by the National Key Research and Development Program of China and the National Natural Science Foundation of China. He has published more than twenty papers in international journals and conferences, including TMM, NeurIPS, and ACM MM. He also serves as a reviewer for international journals and conferences, including TMM, TPAMI, and ACMMM. He is a member of the Multimedia Technical Committee of the China Society of Image and Graphics.
 
 <h2 id="news" class="news-title">News</h2>
+
+- Zijie Song received the Best Poster Paper Award at ChinaMM 2026.
 
 - The paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026. (CCF-A; CAS Q1 Top Journal)
 
