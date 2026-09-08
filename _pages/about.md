@@ -23,6 +23,8 @@ He has participated in several research projects supported by the National Key R
 
 <h2 id="news" class="news-title">News</h2>
 
+- Zijie Song received the Invitation as a TPC Member for MMM 2027.
+
 - Zijie Song received the Best Poster Paper Award at ChinaMM 2026.
 
 - The paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026. (CCF-A; CAS Q1 Top Journal)
