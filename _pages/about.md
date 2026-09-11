@@ -23,13 +23,15 @@ He has participated in several research projects supported by the National Key R
 
 <h2 id="news" class="news-title">News</h2>
 
-- Zijie Song received the Invitation as a TPC Member for MMM 2027.
+- Zijie Song received the Invitation to join the Editorial Board of Scientific Reports (SCI Q1) and TPC Member for MMM 2027.
+
+- The paper “SDADL: SVD-Based Dual Adaptive Debiasing Learning for Personalized Recommendation” was published in IEEE Transactions on Computational Social Systems, 2026. Zijie Song is the corresponding author.
 
 - Zijie Song received the Best Poster Paper Award at ChinaMM 2026.
 
-- The paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026. (CCF-A; CAS Q1 Top Journal)
+- The paper “Image Captioning via Compact Bidirectional Architecture” was published in IEEE Transactions on Multimedia, 2026.  Zijie Song is the first author.
 
-- The paper “Enhanced Keyframe Selection for Long-Video Question Answering via Large Language Model-Generated Pseudo-Labels” was published in Journal of Computer Research and Development, 2026, 63(6): 1563–1573. (CCF Chinese T1; Chinese Core Journal)
+- The paper “Enhanced Keyframe Selection for Long-Video Question Answering via Large Language Model-Generated Pseudo-Labels” was published in Journal of Computer Research and Development, 2026, 63(6): 1563–1573. Zijie Song is the first author.
 
 - Zijie Song received the Best Poster Award at ChinaMM 2025.
 
