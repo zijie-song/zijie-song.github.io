@@ -80,11 +80,11 @@ Image captioning, video question answering, text-video retrieval, and image clus
 
 2. <strong>Z. Song</strong>, Z. Hu, Y. Ma, J. Li, and R. Hong. Video Flow as Time Series: Discovering Temporal Consistency and Variability for VideoQA. IEEE International Conference on Multimedia and Expo (ICME), 2025.
 
-3. J. Xiao, <strong>Z. Song</strong>, J. Hu, H. Cheng, Z. Hu, J. Li, and R. Hong. Rebalancing Contrastive Alignment with Learnable Semantic Gaps in Text-Video Retrieval. Advances in Neural Information Processing Systems (NeurIPS), 2025.
+3. <strong>Z. Song</strong>, Y. Zhou, Z. Hu, D. Liu, H. Ben, R. Hong, and M. Wang. Image Captioning via Compact Bidirectional Architecture. IEEE Transactions on Multimedia, 2026.
 
 4. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Efficient and Self-adaptive Rationale Knowledge Base for Visual Commonsense Reasoning. Multimedia Systems, 2023, 29(5): 3017–3026.
 
-5. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Feature Jigsaw for Self-supervised Image Clustering. International Joint Conference on Neural Networks (IJCNN), 2023.
+5. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Jigsaw Representation with CLIP: a new perspective on image clustering. Multimedia Systems, 2025, 31(2), 105.
 
 For more research work and academic service, please refer to:
 
