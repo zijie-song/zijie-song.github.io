@@ -23,6 +23,8 @@ He has participated in several research projects supported by the National Key R
 
 <h2 id="news" class="news-title">News</h2>
 
+- The paper “B^3: Bridging Temporal Gap on Brown Bridge via Stochastic Process Based Modeling for Text-Video Retrieval” was published in IEEE Transactions on Multimedia, 2026. Zijie Song is the first author and corresponding author.
+
 - Zijie Song received the Invitation to join the Editorial Board of Scientific Reports (SCI Q1) and TPC Member for MMM 2027.
 
 - The paper “SDADL: SVD-Based Dual Adaptive Debiasing Learning for Personalized Recommendation” was published in IEEE Transactions on Computational Social Systems, 2026. Zijie Song is the corresponding author.
@@ -76,15 +78,17 @@ Image captioning, video question answering, text-video retrieval, and image clus
 
 <h2 id="publications">Selected Publications</h2>
 
-1. <strong>Z. Song</strong>, Z. Hu, Y. Zhou, Y. Zhao, R. Hong, and M. Wang. Embedded Heterogeneous Attention Transformer for Cross-lingual Image Captioning. IEEE Transactions on Multimedia, 2024, 26: 9008–9020.
+1. <strong>Z. Song</strong>, L. Ge, Y. Wang, Y. Ma, Y. Zhou, Z. Hu, R. Hong, and M. Wang. B^3: Bridging Temporal Gap on Brown Bridge via Stochastic Process Based Modeling for Text-Video Retrieval. IEEE Transactions on Multimedia, 2026.
 
-2. <strong>Z. Song</strong>, Z. Hu, Y. Ma, J. Li, and R. Hong. Video Flow as Time Series: Discovering Temporal Consistency and Variability for VideoQA. IEEE International Conference on Multimedia and Expo (ICME), 2025.
+2.  <strong>Z. Song</strong>, Z. Hu, Y. Zhou, Y. Zhao, R. Hong, and M. Wang. Embedded Heterogeneous Attention Transformer for Cross-lingual Image Captioning. IEEE Transactions on Multimedia, 2024, 26: 9008–9020.
 
-3. <strong>Z. Song</strong>, Y. Zhou, Z. Hu, D. Liu, H. Ben, R. Hong, and M. Wang. Image Captioning via Compact Bidirectional Architecture. IEEE Transactions on Multimedia, 2026.
+3. <strong>Z. Song</strong>, Z. Hu, Y. Ma, J. Li, and R. Hong. Video Flow as Time Series: Discovering Temporal Consistency and Variability for VideoQA. IEEE International Conference on Multimedia and Expo (ICME), 2025.
 
-4. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Efficient and Self-adaptive Rationale Knowledge Base for Visual Commonsense Reasoning. Multimedia Systems, 2023, 29(5): 3017–3026.
+4. <strong>Z. Song</strong>, Y. Zhou, Z. Hu, D. Liu, H. Ben, R. Hong, and M. Wang. Image Captioning via Compact Bidirectional Architecture. IEEE Transactions on Multimedia, 2026.
 
-5. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Jigsaw Representation with CLIP: a new perspective on image clustering. Multimedia Systems, 2025, 31(2), 105.
+5. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Efficient and Self-adaptive Rationale Knowledge Base for Visual Commonsense Reasoning. Multimedia Systems, 2023, 29(5): 3017–3026.
+
+6. <strong>Z. Song</strong>, Z. Hu, and R. Hong. Grid Jigsaw Representation with CLIP: a new perspective on image clustering. Multimedia Systems, 2025, 31(2), 105.
 
 For more research work and academic service, please refer to:
 
